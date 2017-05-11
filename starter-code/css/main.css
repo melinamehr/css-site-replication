@@ -4,7 +4,138 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+html {
+  width: 100%;
+}
+
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  width: 100%;
+  background: url("../images/bgtile.png") repeat-x;
+}
+.container {
+  width: 900px;
+  margin: auto;
+}
+
+.left-column {
+    width: 50%;
+    float: left;
+    padding-top: 51px;
+}
+
+.right-column, .left-column {
+  width: 50%;
+  padding-top: 111px;
+  padding-top: 51px;
+}
+
+.right-column {
+  padding-top: 65px;
+  float: right;
+}
+
+.home {
+  float: right;
+  border: 6px #568dba solid;
+  margin-top: 20px;
+  background-color: #568dba;
+  border-radius: 5px;
+}
+
+a {
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+}
+/*
+.phones {
+  width: 80%;
+  position: absolute;
+  float: left;
+  top: 90px;
+  left: 60px;
+}
+
+/*.container {
+  width: 100%;
+  height: 250px;
+  background-color: #4a708f;
+  border:5px solid #4a708f;
+  z-index: 10;
+/*}*/
+
+/*.header {
+    float: right;
+    margin-right: 5%
+}
+
+.home {
+    background-color: #4682b4;
+    z-index: 50;
+    width: 100px;
+    height: 20px;
+    border-radius: 3px;
+    float: right;
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
+
+h5 {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  z-index: 50;
+}
+
+/*main {
+    overflow: hidden;
+    width: 50%;
+    position: relative;
+    left: 50%;
+    top: -100px;
+}*/
+
+.text-box {
+  background-color: white;
+  float: left;
+  z-index: 50;
+  border-radius: 10px;
+  padding: 20px;
+  margin-top: 7px;
+}
+
+h1 {
+  font-size: 25px;
+  color: #4a708f;
+  text-align: left;
+}
+
+span {
+  font-weight: bold;
+}
+
+.bar {
+  width: 100%;
+  background-color: white;
+  float: left;
+}
+
+ul {
+  list-style: none;
+  margin:auto;
+  text-align: center;
+  font-size: 11px;
+  font-weight: bolder;
+  color: #568dba
+}
+
+li {
+  display: inline;
+  margin: 0 5px 0 0;
+}
+
+.c {
+  color: lightgrey;
 }
